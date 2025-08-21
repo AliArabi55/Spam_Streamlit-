@@ -17,13 +17,64 @@ A powerful AI-powered spam detection application built with Streamlit that analy
 ## 🗂️ Project Structure
 
 ```
-├── app.py              # Main application file
-├── styles.py           # UI styles and design components
-├── languages.py        # Multilingual support (English/German)
-├── spam_classifier.pkl # Trained machine learning model
-├── vectorizer.pkl      # Text vectorizer for preprocessing
-└── README.md          # This file
+├── app.py                 # Main application file (with auto-install)
+├── styles.py              # UI styles and design components
+├── languages.py           # Multilingual support (English/German)
+├── spam_classifier.pkl    # Trained machine learning model
+├── vectorizer.pkl         # Text vectorizer for preprocessing
+├── requirements.txt       # Required Python packages
+├── run.bat               # Quick launcher for Windows
+└── README.md             # This file
 ```
+
+## 🛠️ Installation & Setup
+
+### Quick Start (Windows)
+
+For Windows users, simply double-click `run.bat` or run:
+```bash
+run.bat
+```
+
+### Automatic Installation (All Systems)
+
+The app automatically checks for and installs all required packages when you run it:
+
+```bash
+streamlit run app.py
+```
+
+The application will:
+1. ✅ Check if all required packages are installed
+2. 📦 Automatically install missing packages from `requirements.txt`
+3. 🔍 Display installation status in the console
+4. 🎉 Start the spam detection interface
+
+### Manual Installation
+
+If you prefer to install packages manually:
+
+```bash
+# Clone the repository
+git clone https://github.com/AliArabi55/Spam_Streamlit-.git
+cd Spam_Streamlit-
+
+# Install required packages
+pip install -r requirements.txt
+
+# Run the application
+streamlit run app.py
+```
+
+## 📦 Required Packages
+
+The following packages are automatically installed from `requirements.txt`:
+
+- `streamlit>=1.28.0` - Web app framework
+- `joblib>=1.3.0` - Model serialization
+- `scikit-learn>=1.3.0` - Machine learning library
+- `pandas>=1.5.0` - Data manipulation
+- `numpy>=1.24.0` - Numerical computing
 
 ## 🚀 Features
 

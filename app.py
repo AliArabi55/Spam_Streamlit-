@@ -1,8 +1,57 @@
+
+import os
 import subprocess
 import sys
 
-# تأكد من تثبيت joblib
-subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
+def check_and_install_requirements():
+    """التحقق من وجود المكتبات المطلوبة وتثبيتها من ملف requirements.txt"""
+    
+    # قائمة المكتبات المطلوبة مع أسماء الاستيراد الصحيحة
+    required_packages = {
+        'streamlit': 'streamlit',
+        'joblib': 'joblib', 
+        'scikit-learn': 'sklearn',
+        'pandas': 'pandas',
+        'numpy': 'numpy'
+    }
+    
+    missing_packages = []
+    
+    # التحقق من كل مكتبة
+    for package_name, import_name in required_packages.items():
+        try:
+            __import__(import_name)
+            print(f"✅ {package_name} موجودة")
+        except ImportError:
+            print(f"⚠️ {package_name} غير موجودة")
+            missing_packages.append(package_name)
+    
+    # إذا كانت هناك مكتبات مفقودة، قم بتثبيتها من requirements.txt
+    if missing_packages:
+        print(f"🔄 جاري تثبيت المكتبات المفقودة: {', '.join(missing_packages)}")
+        requirements_file = "requirements.txt"
+        
+        if os.path.exists(requirements_file):
+            try:
+                # تثبيت جميع المكتبات من requirements.txt
+                subprocess.check_call([
+                    sys.executable, "-m", "pip", "install", "-r", requirements_file, "--quiet"
+                ])
+                print("✅ تم تثبيت جميع المكتبات بنجاح!")
+                return True
+            except subprocess.CalledProcessError as e:
+                print(f"❌ حدث خطأ أثناء تثبيت المكتبات: {e}")
+                return False
+        else:
+            print("⚠️ ملف requirements.txt غير موجود")
+            return False
+    else:
+        print("✅ جميع المكتبات المطلوبة موجودة!")
+        return True
+
+# التحقق من المكتبات وتثبيتها عند بدء التطبيق
+print("🔍 التحقق من المكتبات المطلوبة...")
+installation_success = check_and_install_requirements()
 
 import streamlit as st
 import joblib
@@ -12,6 +61,13 @@ from languages import LANGUAGES
 # إعداد الصفحة والأنماط
 configure_page()
 apply_custom_styles()
+
+# رسالة حالة تثبيت المكتبات
+if installation_success:
+    st.success("✅ جميع المكتبات المطلوبة متوفرة ومحدثة!")
+else:
+    st.error("❌ حدث خطأ في تثبيت بعض المكتبات. يرجى تثبيتها يدوياً.")
+    st.code("pip install -r requirements.txt", language="bash")
 
 # Initialize session state for language
 if 'language' not in st.session_state:
