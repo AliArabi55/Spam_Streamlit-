@@ -21,14 +21,11 @@ def check_and_install_requirements():
     for package_name, import_name in required_packages.items():
         try:
             __import__(import_name)
-            print(f"✅ {package_name} موجودة")
         except ImportError:
-            print(f"⚠️ {package_name} غير موجودة")
             missing_packages.append(package_name)
     
     # إذا كانت هناك مكتبات مفقودة، قم بتثبيتها من requirements.txt
     if missing_packages:
-        print(f"🔄 جاري تثبيت المكتبات المفقودة: {', '.join(missing_packages)}")
         requirements_file = "requirements.txt"
         
         if os.path.exists(requirements_file):
@@ -37,20 +34,15 @@ def check_and_install_requirements():
                 subprocess.check_call([
                     sys.executable, "-m", "pip", "install", "-r", requirements_file, "--quiet"
                 ])
-                print("✅ تم تثبيت جميع المكتبات بنجاح!")
                 return True
             except subprocess.CalledProcessError as e:
-                print(f"❌ حدث خطأ أثناء تثبيت المكتبات: {e}")
                 return False
         else:
-            print("⚠️ ملف requirements.txt غير موجود")
             return False
     else:
-        print("✅ جميع المكتبات المطلوبة موجودة!")
         return True
 
 # التحقق من المكتبات وتثبيتها عند بدء التطبيق
-print("🔍 التحقق من المكتبات المطلوبة...")
 installation_success = check_and_install_requirements()
 
 import streamlit as st
