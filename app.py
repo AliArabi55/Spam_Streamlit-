@@ -1,3 +1,9 @@
+import subprocess
+import sys
+
+# تأكد من تثبيت joblib
+subprocess.check_call([sys.executable, "-m", "pip", "install", "joblib"])
+
 import streamlit as st
 import joblib
 from styles import apply_custom_styles, configure_page
