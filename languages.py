@@ -46,9 +46,7 @@ LANGUAGES = {
 
 10. "Great job on the presentation today!" """,
         "spam_examples": "🚨 Spam Examples (Expected Spam Messages)",
-        "spam_examples_list": """
-        
-1. "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T\&C's apply 08452810075over18's"
+        "spam_examples_list": """1. "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T\&C's apply 08452810075over18's"
 
 2. "URGENT! You have won a 1 week FREE membership in our £100,000 Prize Jackpot! Txt the word: CLAIM to No: 81010 T\&C [www.dbuk.net](http://www.dbuk.net) LCCLTD POBOX 4403LDNW1A7RW18"
 
@@ -66,10 +64,7 @@ LANGUAGES = {
 
 9. "Thanks for your subscription to Ringtone UK your mobile will be charged £5/month Please confirm by replying YES or NO. If you reply NO you will not be charged"
 
-10. "Rodger Burns - MSG = We tried to call you re your reply to our sms for a free nokia mobile + free camcorder. Please call now 08000930705 for delivery tomorrow"
-
-         
-         """,
+10. "Rodger Burns - MSG = We tried to call you re your reply to our sms for a free nokia mobile + free camcorder. Please call now 08000930705 for delivery tomorrow" """,
         "try_examples": "💡 Try These Examples",
         "enter_message_warning": "⚠️ Please enter a message first.",
         "analyzing": "🔄 Analyzing message...",
@@ -133,9 +128,7 @@ to help protect users from spam and harmful messages""",
 
 10. "Großartige Arbeit bei der Präsentation heute!" """,
         "spam_examples": "🚨 Spam-Beispiele (Erwartete Spam-Nachrichten)",
-        "spam_examples_list": """
-  
-1. "Kostenloser Eintritt in einen wöchentlichen Wettbewerb, um Tickets für das FA-Cup-Finale am 21. Mai 2005 zu gewinnen. Sende FA an 87121, um die Teilnahmefrage zu erhalten (Standard-SMS-Gebühr). AGB gelten 08452810075 ab 18 Jahren."
+        "spam_examples_list": """1. "Kostenloser Eintritt in einen wöchentlichen Wettbewerb, um Tickets für das FA-Cup-Finale am 21. Mai 2005 zu gewinnen. Sende FA an 87121, um die Teilnahmefrage zu erhalten (Standard-SMS-Gebühr). AGB gelten 08452810075 ab 18 Jahren."
 
 2. "DRINGEND! Sie haben eine 1-wöchige KOSTENLOSE Mitgliedschaft in unserem £100.000 Preis-Jackpot gewonnen! Senden Sie das Wort: CLAIM an Nr.: 81010 AGB [www.dbuk.net](http://www.dbuk.net) LCCLTD POBOX 4403LDNW1A7RW18."
 
@@ -153,10 +146,7 @@ to help protect users from spam and harmful messages""",
 
 9. "Danke für Ihr Abonnement bei Ringtone UK. Ihr Handy wird mit £5/Monat belastet. Bitte bestätigen Sie mit JA oder NEIN. Wenn Sie NEIN antworten, wird Ihnen nichts berechnet."
 
-10. "Rodger Burns – NACHRICHT = Wir haben versucht, Sie bezüglich Ihrer Antwort auf unsere SMS für ein kostenloses Nokia-Handy + kostenlosen Camcorder anzurufen. Bitte rufen Sie jetzt 08000930705 an für die Lieferung morgen."
-
-
-         """,
+10. "Rodger Burns – NACHRICHT = Wir haben versucht, Sie bezüglich Ihrer Antwort auf unsere SMS für ein kostenloses Nokia-Handy + kostenlosen Camcorder anzurufen. Bitte rufen Sie jetzt 08000930705 an für die Lieferung morgen." """,
         "try_examples": "💡 Probieren Sie diese Beispiele aus",
         "enter_message_warning": "⚠️ Bitte geben Sie zuerst eine Nachricht ein.",
         "analyzing": "🔄 Nachricht wird analysiert...",
