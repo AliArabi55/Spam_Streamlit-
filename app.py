@@ -54,13 +54,6 @@ from languages import LANGUAGES
 configure_page()
 apply_custom_styles()
 
-# رسالة حالة تثبيت المكتبات
-if installation_success:
-    st.success("✅ جميع المكتبات المطلوبة متوفرة ومحدثة!")
-else:
-    st.error("❌ حدث خطأ في تثبيت بعض المكتبات. يرجى تثبيتها يدوياً.")
-    st.code("pip install -r requirements.txt", language="bash")
-
 # Initialize session state for language
 if 'language' not in st.session_state:
     st.session_state.language = 'English'
