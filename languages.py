@@ -46,25 +46,30 @@ LANGUAGES = {
 
 10. "Great job on the presentation today!" """,
         "spam_examples": "🚨 Spam Examples (Expected Spam Messages)",
-        "spam_examples_list": """1. "Congratulations! You have won a free lottery ticket. Claim now!"
+        "spam_examples_list": """
+        
+1. "Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 87121 to receive entry question(std txt rate)T\&C's apply 08452810075over18's"
 
-2. "URGENT! Your account will be suspended unless you verify immediately."
+2. "URGENT! You have won a 1 week FREE membership in our £100,000 Prize Jackpot! Txt the word: CLAIM to No: 81010 T\&C [www.dbuk.net](http://www.dbuk.net) LCCLTD POBOX 4403LDNW1A7RW18"
 
-3. "You've been selected for a $1000 Walmart gift card."
+3. "WINNER!! As a valued network customer you have been selected to receive a £900 prize reward! To claim call 09061701461. Claim code KL341. Valid 12 hours only."
 
-4. "Win a brand new iPhone by clicking this link."
+4. "Had your mobile 11 months or more? U R entitled to Update to the latest colour mobiles with camera for Free! Call The Mobile Update Co FREE on 08002986030"
 
-5. "Get cheap loans instantly, no credit check required."
+5. "SIX chances to win CASH! From 100 to 20,000 pounds txt> CSH11 and send to 87575. Cost 150p/day, 6days, 16+ TsandCs apply Reply HL 4 info"
 
-6. "WINNER! You've won $5000! Text STOP to claim your prize!"
+6. "URGENT! You have won a 1 week FREE membership in our £100,000 Prize Jackpot! Txt the word: CLAIM to No: 81010 T\&C [www.dbuk.net](http://www.dbuk.net) LCCLTD POBOX 4403LDNW1A7RW18"
 
-7. "Your credit card has been compromised. Click here to secure it."
+7. "XXXMobileMovieClub: To use your credit, click the WAP link in the next txt message or click here>> [http://wap](http://wap). [https://www.google.com/url?sa=E\&source=gmail\&q=xxxmobilemovieclub.com?n=QJKGIGHJJGCBL](https://www.google.com/url?sa=E&source=gmail&q=xxxmobilemovieclub.com?n=QJKGIGHJJGCBL)"
 
-8. "Free vacation to Hawaii! Limited time offer, act now!"
+8. "England v Macedonia - dont miss the goals/team news. Txt ur national team to 87077 eg ENGLAND to 87077 Try\:WALES, SCOTLAND 4txt/£1.20 POBOXox36504W45WQ 16+"
 
-9. "Make $500 per day working from home! No experience needed."
+9. "Thanks for your subscription to Ringtone UK your mobile will be charged £5/month Please confirm by replying YES or NO. If you reply NO you will not be charged"
 
-10. "ALERT: Suspicious activity on your account. Verify now or lose access!" """,
+10. "Rodger Burns - MSG = We tried to call you re your reply to our sms for a free nokia mobile + free camcorder. Please call now 08000930705 for delivery tomorrow"
+
+         
+         """,
         "try_examples": "💡 Try These Examples",
         "enter_message_warning": "⚠️ Please enter a message first.",
         "analyzing": "🔄 Analyzing message...",
@@ -128,25 +133,30 @@ to help protect users from spam and harmful messages""",
 
 10. "Großartige Arbeit bei der Präsentation heute!" """,
         "spam_examples": "🚨 Spam-Beispiele (Erwartete Spam-Nachrichten)",
-        "spam_examples_list": """1. "Glückwunsch! Sie haben ein kostenloses Lotterielos gewonnen. Jetzt einlösen!"
+        "spam_examples_list": """
+  
+1. "Kostenloser Eintritt in einen wöchentlichen Wettbewerb, um Tickets für das FA-Cup-Finale am 21. Mai 2005 zu gewinnen. Sende FA an 87121, um die Teilnahmefrage zu erhalten (Standard-SMS-Gebühr). AGB gelten 08452810075 ab 18 Jahren."
 
-2. "DRINGEND! Ihr Konto wird gesperrt, es sei denn, Sie verifizieren sofort."
+2. "DRINGEND! Sie haben eine 1-wöchige KOSTENLOSE Mitgliedschaft in unserem £100.000 Preis-Jackpot gewonnen! Senden Sie das Wort: CLAIM an Nr.: 81010 AGB [www.dbuk.net](http://www.dbuk.net) LCCLTD POBOX 4403LDNW1A7RW18."
 
-3. "Sie wurden für eine 1000€ Walmart-Geschenkkarte ausgewählt."
+3. "GEWINNER!! Als geschätzter Netzwerkkunde wurden Sie ausgewählt, eine £900-Preisbelohnung zu erhalten! Um Ihren Gewinn zu beanspruchen, rufen Sie 09061701461 an. Anspruchscode KL341. Nur 12 Stunden gültig."
 
-4. "Gewinnen Sie ein brandneues iPhone, indem Sie auf diesen Link klicken."
+4. "Haben Sie Ihr Handy seit 11 Monaten oder länger? Sie haben Anspruch auf ein Upgrade auf die neuesten Farb-Handys mit Kamera – KOSTENLOS! Rufen Sie die Mobile Update Co KOSTENLOS an unter 08002986030."
 
-5. "Erhalten Sie günstige Kredite sofort, keine Bonitätsprüfung erforderlich."
+5. "SECHS Chancen, BARGELD zu gewinnen! Von 100 bis 20.000 Pfund. Senden Sie CSH11 an 87575. Kosten 150p/Tag, 6 Tage, ab 16+. AGB gelten. Antworten Sie mit HL für Infos."
 
-6. "GEWINNER! Sie haben 5000€ gewonnen! Senden Sie STOP um Ihren Preis zu beanspruchen!"
+6. "DRINGEND! Sie haben eine 1-wöchige KOSTENLOSE Mitgliedschaft in unserem £100.000 Preis-Jackpot gewonnen! Senden Sie das Wort: CLAIM an Nr.: 81010 AGB [www.dbuk.net](http://www.dbuk.net) LCCLTD POBOX 4403LDNW1A7RW18."
 
-7. "Ihre Kreditkarte wurde kompromittiert. Klicken Sie hier, um sie zu sichern."
+7. "XXXMobileMovieClub: Um Ihr Guthaben zu nutzen, klicken Sie auf den WAP-Link in der nächsten SMS oder klicken Sie hier >> [http://wap](http://wap). [https://www.google.com/url?sa=E\&source=gmail\&q=xxxmobilemovieclub.com?n=QJKGIGHJJGCBL](https://www.google.com/url?sa=E&source=gmail&q=xxxmobilemovieclub.com?n=QJKGIGHJJGCBL)."
 
-8. "Kostenloser Urlaub nach Hawaii! Zeitlich begrenztes Angebot, handeln Sie jetzt!"
+8. "England gegen Mazedonien – verpassen Sie nicht die Tore/Team-News. Senden Sie Ihr Nationalteam an 87077, z. B. ENGLAND an 87077. Probieren Sie: WALES, SCOTLAND. 4 SMS/£1.20 POBOXox36504W45WQ ab 16 Jahren."
 
-9. "Verdienen Sie 500€ pro Tag von zu Hause! Keine Erfahrung erforderlich."
+9. "Danke für Ihr Abonnement bei Ringtone UK. Ihr Handy wird mit £5/Monat belastet. Bitte bestätigen Sie mit JA oder NEIN. Wenn Sie NEIN antworten, wird Ihnen nichts berechnet."
 
-10. "ALARM: Verdächtige Aktivitäten auf Ihrem Konto. Jetzt verifizieren oder Zugang verlieren!" """,
+10. "Rodger Burns – NACHRICHT = Wir haben versucht, Sie bezüglich Ihrer Antwort auf unsere SMS für ein kostenloses Nokia-Handy + kostenlosen Camcorder anzurufen. Bitte rufen Sie jetzt 08000930705 an für die Lieferung morgen."
+
+
+         """,
         "try_examples": "💡 Probieren Sie diese Beispiele aus",
         "enter_message_warning": "⚠️ Bitte geben Sie zuerst eine Nachricht ein.",
         "analyzing": "🔄 Nachricht wird analysiert...",
