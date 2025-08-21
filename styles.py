@@ -62,34 +62,38 @@ def apply_custom_styles():
             margin: 1rem 0;
         }
         .example-box {
-            background: #f1f3f4;
-            padding: 1rem;
+            background: #1e1e1e;
+            padding: 1.5rem;
             border-radius: 8px;
             border-left: 4px solid #28a745;
             margin: 0.5rem 0;
-            font-family: 'Courier New', monospace;
-            color: #2c3e50;
-            line-height: 1.8;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
         }
-        .example-box p {
-            color: #2c3e50 !important;
-            margin: 0.5rem 0;
-            white-space: pre-line;
+        .example-box pre {
+            color: #ffffff !important;
+            font-family: 'Segoe UI', Arial, sans-serif !important;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0;
+            white-space: pre-wrap;
+            background: transparent;
         }
         .spam-example-box {
-            background: #fff5f5;
-            padding: 1rem;
+            background: #1e1e1e;
+            padding: 1.5rem;
             border-radius: 8px;
             border-left: 4px solid #dc3545;
             margin: 0.5rem 0;
-            font-family: 'Courier New', monospace;
-            color: #721c24;
-            line-height: 1.8;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
         }
-        .spam-example-box p {
-            color: #721c24 !important;
-            margin: 0.5rem 0;
-            white-space: pre-line;
+        .spam-example-box pre {
+            color: #ffffff !important;
+            font-family: 'Segoe UI', Arial, sans-serif !important;
+            font-size: 14px;
+            line-height: 1.6;
+            margin: 0;
+            white-space: pre-wrap;
+            background: transparent;
         }
     </style>
     """, unsafe_allow_html=True)

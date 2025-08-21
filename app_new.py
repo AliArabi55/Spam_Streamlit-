@@ -133,7 +133,7 @@ with col2:
     with st.expander(texts["ham_examples"], expanded=False):
         st.markdown(f"""
         <div class="example-box">
-            <pre style="color: #2c3e50; font-family: 'Segoe UI', Arial, sans-serif; white-space: pre-wrap; margin: 0;">{texts["ham_examples_list"]}</pre>
+            {texts["ham_examples_list"]}
         </div>
         """, unsafe_allow_html=True)
     
@@ -141,7 +141,7 @@ with col2:
     with st.expander(texts["spam_examples"], expanded=False):
         st.markdown(f"""
         <div class="spam-example-box">
-            <pre style="color: #721c24; font-family: 'Segoe UI', Arial, sans-serif; white-space: pre-wrap; margin: 0;">{texts["spam_examples_list"]}</pre>
+            {texts["spam_examples_list"]}
         </div>
         """, unsafe_allow_html=True)
 

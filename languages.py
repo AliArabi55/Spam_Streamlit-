@@ -27,25 +27,43 @@ LANGUAGES = {
         "analyze_button": "🔍 Analyze Message",
         "ham_examples": "✅ Ham Examples (Expected Normal Messages)",
         "ham_examples_list": """1. "Are we still meeting for lunch tomorrow?"
+
 2. "Please call me when you arrive."
+
 3. "Happy birthday! Wishing you all the best."
+
 4. "Don't forget to bring your notebook for class."
+
 5. "Can you send me the report before 5 pm?"
+
 6. "Thanks for helping me with the project yesterday."
+
 7. "The meeting has been moved to 3 PM today."
+
 8. "Could you pick up some groceries on your way home?"
+
 9. "I'll be running about 10 minutes late."
+
 10. "Great job on the presentation today!" """,
         "spam_examples": "🚨 Spam Examples (Expected Spam Messages)",
         "spam_examples_list": """1. "Congratulations! You have won a free lottery ticket. Claim now!"
+
 2. "URGENT! Your account will be suspended unless you verify immediately."
+
 3. "You've been selected for a $1000 Walmart gift card."
+
 4. "Win a brand new iPhone by clicking this link."
+
 5. "Get cheap loans instantly, no credit check required."
+
 6. "WINNER! You've won $5000! Text STOP to claim your prize!"
+
 7. "Your credit card has been compromised. Click here to secure it."
+
 8. "Free vacation to Hawaii! Limited time offer, act now!"
+
 9. "Make $500 per day working from home! No experience needed."
+
 10. "ALERT: Suspicious activity on your account. Verify now or lose access!" """,
         "try_examples": "💡 Try These Examples",
         "enter_message_warning": "⚠️ Please enter a message first.",
@@ -91,25 +109,43 @@ to help protect users from spam and harmful messages""",
         "analyze_button": "🔍 Nachricht analysieren",
         "ham_examples": "✅ Ham-Beispiele (Erwartete normale Nachrichten)",
         "ham_examples_list": """1. "Treffen wir uns immer noch morgen zum Mittagessen?"
+
 2. "Bitte ruf mich an, wenn du ankommst."
+
 3. "Alles Gute zum Geburtstag! Ich wünsche dir alles Beste."
+
 4. "Vergiss nicht, dein Notizbuch für den Unterricht mitzubringen."
+
 5. "Kannst du mir den Bericht vor 17 Uhr schicken?"
+
 6. "Danke, dass du mir gestern bei dem Projekt geholfen hast."
+
 7. "Das Meeting wurde auf 15 Uhr heute verlegt."
+
 8. "Könntest du auf dem Heimweg Lebensmittel einkaufen?"
+
 9. "Ich werde etwa 10 Minuten zu spät kommen."
+
 10. "Großartige Arbeit bei der Präsentation heute!" """,
         "spam_examples": "🚨 Spam-Beispiele (Erwartete Spam-Nachrichten)",
         "spam_examples_list": """1. "Glückwunsch! Sie haben ein kostenloses Lotterielos gewonnen. Jetzt einlösen!"
+
 2. "DRINGEND! Ihr Konto wird gesperrt, es sei denn, Sie verifizieren sofort."
+
 3. "Sie wurden für eine 1000€ Walmart-Geschenkkarte ausgewählt."
+
 4. "Gewinnen Sie ein brandneues iPhone, indem Sie auf diesen Link klicken."
+
 5. "Erhalten Sie günstige Kredite sofort, keine Bonitätsprüfung erforderlich."
+
 6. "GEWINNER! Sie haben 5000€ gewonnen! Senden Sie STOP um Ihren Preis zu beanspruchen!"
+
 7. "Ihre Kreditkarte wurde kompromittiert. Klicken Sie hier, um sie zu sichern."
+
 8. "Kostenloser Urlaub nach Hawaii! Zeitlich begrenztes Angebot, handeln Sie jetzt!"
+
 9. "Verdienen Sie 500€ pro Tag von zu Hause! Keine Erfahrung erforderlich."
+
 10. "ALARM: Verdächtige Aktivitäten auf Ihrem Konto. Jetzt verifizieren oder Zugang verlieren!" """,
         "try_examples": "💡 Probieren Sie diese Beispiele aus",
         "enter_message_warning": "⚠️ Bitte geben Sie zuerst eine Nachricht ein.",
